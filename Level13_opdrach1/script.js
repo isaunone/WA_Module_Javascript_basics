@@ -14,7 +14,7 @@ if (isFemale) {
     console.log('Not a female');
 }
 
-if (driverStatus == 'bob') {
+if (driverStatus === 'bob') {
     console.log('You can drive');
 }else {
     console.log('Your not allowed to drive');
